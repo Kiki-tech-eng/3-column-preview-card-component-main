@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  max-width: 1440px;
+}
+
+.one {
+  background-color: hsl(31, 77%, 52%);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.two {
+  background-color: hsl(184, 100%, 22%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.three {
+  background-color: hsl(179, 100%, 13%);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 95%);
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+ 
+  border-radius: 30px;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.btn-one {
+  color: hsl(31, 77%, 52%);
+  margin-bottom: 50px;
+  font-family: "Lexend Deca", serif;
+}
+
+.btn:hover {
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-two {
+  color: hsl(184, 100%, 22%);
+  margin-bottom: 50px;
+  font-family: "Lexend Deca", serif;
+}
+
+.btn-three {
+  color: hsl(179, 100%, 13%);
+  margin-bottom: 50px;
+  font-family: "Lexend Deca", serif;
+}
+
+.p {
+  margin-bottom: 100px;
+  font-family: "Lexend Deca", serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+h2 {
+  font-family: "Big Shoulders Display", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+img {
+  margin-top: 50px;
+  width: 60px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    display: block;
+  }
+}
