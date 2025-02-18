@@ -72,7 +72,7 @@ body {
 }
 
 .p {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: "Lexend Deca", serif;
   font-weight: 400;
   font-size: 15px;
@@ -92,7 +92,31 @@ img {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    height: unset;
+    margin-top: 25%;
+    margin-bottom: 25%;
+  }
   .container {
     display: block;
+  }
+  .one {
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 0;
+     border-top-right-radius: 10px;
+     padding-bottom: 30px;
+
+  }
+  .two {
+     padding-bottom: 30px;
+  }
+  .three {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+     padding-bottom: 30px;
+  }
+  .btn {
+    margin:0; 
   }
 }
