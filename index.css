@@ -94,8 +94,8 @@ img {
 @media only screen and (max-width: 800px) {
   body {
     height: unset;
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
   .container {
     display: block;
